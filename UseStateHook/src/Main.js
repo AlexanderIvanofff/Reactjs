@@ -5,7 +5,7 @@ function Main() {
     const [emotion, setEmotion] = useState("happy")
 
     return (
-        <dib>
+        <div>
             <h1>Current emotion is {emotion}</h1>
             <button onClick={() => setEmotion("frustrated")}
             >Frustrate
@@ -17,7 +17,7 @@ function Main() {
             <button onClick={() => setEmotion("Happy")}>
                 Happy
             </button>
-        </dib>
+        </div>
 
 
     )
